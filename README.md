@@ -69,6 +69,7 @@ gallery.html
         <span onclick="closeModal()">&times;</span>
         <img id="modalImage">
     </div>
+    <footer>Designed By ASHFAK N(25003270)</footer>
 </body>
 </html>
 
@@ -119,6 +120,11 @@ color: white;
 font-size: 40px; 
 font-weight: bold; 
 cursor: pointer;
+}
+footer
+{
+background-color:blue;
+text-align:bottom;
 }
 
 
