@@ -1,5 +1,5 @@
 # Ex.08 Design of Interactive Image Gallery
-## Date:08/10/2025
+## Date:18/10/2025
 
 ## AIM:
 To design a web application for an inteactive image gallery with minimum five images.
@@ -38,30 +38,30 @@ gallery.html
     <link rel="stylesheet" href="galstyle.css">
 </head>
 <body>
-    <header style="text-align: center; background-color: #126e7c; color: white; padding: 1rem 0;">
+    <header>
         <h1>Knights</h1>
         <h4>ASHFAK N(25003270)</h4>
     </header>
-    <div style="white-space: nowrap; overflow-x: auto; padding: 1rem;">
-        <div style="display: inline-block; margin-right: 10px;" onclick="openModal(this)">
+    <div class="img-container">
+        <div class="img-container" onclick="openModal(this)">
             <img src="snow.jpg" style="height: 200px; width: 200;">
         </div>
-        <div style="display: inline-block; margin-right: 10px;" onclick="openModal(this)">
+        <div class="img-cover" onclick="openModal(this)">
             <img src="stark.jpg" style="height: 200px; width: 200;">
         </div>
-        <div style="display: inline-block; margin-right: 10px;" onclick="openModal(this)">
+        <div class="img-cover" onclick="openModal(this)">
             <img src="tyrion.jpg" style="height: 200px; width: 200;">
         </div>
-        <div style="display: inline-block;" onclick="openModal(this)">
+        <div class="img-cover" onclick="openModal(this)">
             <img src="robbs.jpg" style="height: 200px; width: 200;">
         </div>
-        <div style="display: inline-block;" onclick="openModal(this)">
+        <div class="img-cover" onclick="openModal(this)">
             <img src="jamie.jpg" style="height: 200px; width: 200;">
         </div>
-        <div style="display: inline-block;" onclick="openModal(this)">
+        <div class="img-cover" onclick="openModal(this)">
             <img src="robert.jpg" style="height: 200px; width: 200;">
         </div>
-        <div style="display: inline-block;" onclick="openModal(this)">
+        <div class="img-cover" onclick="openModal(this)">
             <img src="bariston.jpg" style="height: 200px; width: 200;">
         </div>
     </div>
@@ -74,6 +74,26 @@ gallery.html
 
 
 galstyle.css
+header
+{
+text-align: center;
+background-color: #126e7c;
+color: white;
+padding: 1rem 0;
+}
+.img-container
+{
+white-space: nowrap;
+overflow-x: auto;
+padding: 1rem;
+}
+.img-cover
+{
+display: inline-block;
+margin-right: 10px;
+}
+
+
 
 #modal{
 display: none; 
