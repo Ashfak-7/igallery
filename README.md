@@ -44,25 +44,25 @@ gallery.html
     </header>
     <div class="img-container">
         <div class="img-container" onclick="openModal(this)">
-            <img src="snow.jpg" style="height: 200px; width: 200;">
+            <img class="images" src="snow.jpg">
         </div>
         <div class="img-cover" onclick="openModal(this)">
-            <img src="stark.jpg" style="height: 200px; width: 200;">
+            <img class="images" src="stark.jpg">
         </div>
         <div class="img-cover" onclick="openModal(this)">
-            <img src="tyrion.jpg" style="height: 200px; width: 200;">
+            <img class="images" src="tyrion.jpg">
         </div>
         <div class="img-cover" onclick="openModal(this)">
-            <img src="robbs.jpg" style="height: 200px; width: 200;">
+            <img class="images" src="robbs.jpg">
         </div>
         <div class="img-cover" onclick="openModal(this)">
-            <img src="jamie.jpg" style="height: 200px; width: 200;">
+            <img class="images" src="jamie.jpg">
         </div>
         <div class="img-cover" onclick="openModal(this)">
-            <img src="robert.jpg" style="height: 200px; width: 200;">
+            <img class="images" src="robert.jpg">
         </div>
         <div class="img-cover" onclick="openModal(this)">
-            <img src="bariston.jpg" style="height: 200px; width: 200;">
+            <img class="imaages" src="bariston.jpg">
         </div>
     </div>
     <div id="modal">
@@ -93,7 +93,11 @@ padding: 1rem;
 display: inline-block;
 margin-right: 10px;
 }
-
+.images
+{
+height: 200px;
+width: 200;
+}
 
 
 #modal{
