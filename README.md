@@ -26,14 +26,12 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 ```
+
 gallery.html
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Image Gallery</title>
     <script src="galscript.js"></script>
     <link rel="stylesheet" href="galstyle.css">
 </head>
@@ -43,7 +41,7 @@ gallery.html
         <h4>ASHFAK N(25003270)</h4>
     </header>
     <div class="img-container">
-        <div class="img-container" onclick="openModal(this)">
+        <div class="img-cover" onclick="openModal(this)">
             <img class="images" src="snow.jpg">
         </div>
         <div class="img-cover" onclick="openModal(this)">
@@ -62,7 +60,7 @@ gallery.html
             <img class="images" src="robert.jpg">
         </div>
         <div class="img-cover" onclick="openModal(this)">
-            <img class="imaages" src="bariston.jpg">
+            <img class="images" src="bariston.jpg">
         </div>
     </div>
     <div id="modal">
@@ -75,6 +73,7 @@ gallery.html
 
 
 galstyle.css
+
 header
 {
 text-align: center;
@@ -84,6 +83,7 @@ padding: 1rem 0;
 }
 .img-container
 {
+text-align:top;
 white-space: nowrap;
 overflow-x: auto;
 padding: 1rem;
@@ -96,7 +96,7 @@ margin-right: 10px;
 .images
 {
 height: 200px;
-width: 200;
+width: 200px;
 }
 
 
@@ -127,8 +127,15 @@ cursor: pointer;
 }
 footer
 {
-background-color:blue;
+position: absolute;
+bottom: 0%;
+display: flex;
+justify-content:center;
+color: white;
+background-color:#126e7c;
 text-align:bottom;
+height: 20px;
+width:1500px;
 }
 
 
@@ -149,7 +156,7 @@ function closeModal() {
 
 ```
 ## OUTPUT:
-![alt text](<Screenshot (32).png>)
+![alt text](<Screenshot (46).png>)
 ![alt text](<Screenshot (33).png>)
 ![alt text](<Screenshot (34).png>)
 ![alt text](<Screenshot (35).png>)
