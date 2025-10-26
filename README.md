@@ -156,7 +156,8 @@ function closeModal() {
 
 ```
 ## OUTPUT:
-<img width="1920" height="1200" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/619cc599-537a-45f6-a7b3-ed8209d46f2b" />
+<img width="1920" height="1200" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/9cb75210-c9b4-4f4c-ab4c-d275ed4e1446" />
+
 
 ![alt text](<Screenshot (33).png>)
 ![alt text](<Screenshot (34).png>)
